@@ -1,0 +1,54 @@
+.event-item {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .event-item {
+    width: 47%;
+  }
+}
+
+.event-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+
+.event-img {
+  height: 25vh;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.active-event {
+  border: 2px solid #2dd4bf;
+}
+
+.event-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 992px) {
+  .event-name {
+    font-size: 20px;
+  }
+}
+
+.event-location {
+  color: #f8fafc;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (min-width: 992px) {
+  .event-location {
+    font-size: 13px;
+  }
+}
